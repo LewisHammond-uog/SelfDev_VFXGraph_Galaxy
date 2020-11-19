@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 48872130}
   - component: {fileID: 48872129}
   m_Layer: 0
-  m_Name: Fireworks
+  m_Name: Galaxy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -208,9 +208,6 @@ VFXRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -240,7 +237,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48872128}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 061817cdb505fef49b02995dbf69d89c, type: 3}
+  m_Asset: {fileID: 8926484042661614526, guid: 415f6beb9b1af3048a9a013b56fd37d5, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -258,7 +255,10 @@ VisualEffect:
     m_Uint:
       m_Array: []
     m_Int:
-      m_Array: []
+      m_Array:
+      - m_Value: 9999999
+        m_Name: Star Count
+        m_Overridden: 1
     m_Matrix4x4f:
       m_Array: []
     m_AnimationCurve:
@@ -360,8 +360,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229256565}
-  m_LocalRotation: {x: 0.0075763166, y: -0.99043894, z: -0.060681257, w: -0.123657584}
-  m_LocalPosition: {x: -2.6503494, y: 3.79, z: 9.361281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.6503494, y: 0.55, z: -11.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -708,4 +708,4 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: be03f55aef0500145bf9ba14588602b5, type: 2}
+  sharedProfile: {fileID: 0}
